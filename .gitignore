@@ -1,0 +1,37 @@
+# Data and generated manifests
+data/
+datasets/
+manifests/
+splits/
+
+# Model parameters and experiment outputs
+checkpoints/
+weights/
+models/
+outputs/
+results/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
